@@ -312,7 +312,6 @@ public class ContactListItemView extends ViewGroup
         mTextHighlighter = new TextHighlighter(Typeface.BOLD,
             context.getResources().getColor(R.color.text_highlight_color));
 
-
         a.recycle();
 
         a = getContext().obtainStyledAttributes(R.styleable.Theme);
